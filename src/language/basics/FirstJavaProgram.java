@@ -17,16 +17,16 @@ public class FirstJavaProgram {
 		//
 		System.out.write(65);
 		System.out.println();
-		
+
 		Logger log = Logger.getLogger("My Logger");
 		log.warning("Please Check");
-		
+
 		System.err.println("ERROR: Expected result is not matching with actual result");
-		
+
 		PrintWriter writer = new PrintWriter("C:\\AutomationTraining\\AutomationProject\\Logs.txt");
-		writer.println(LocalDateTime.now()+" Line 23 is running");
-		writer.println(LocalDateTime.now()+" Line 24 is running");
-		writer.println(LocalDateTime.now()+" Completed");
+		writer.println(LocalDateTime.now() + " Line 23 is running");
+		writer.println(LocalDateTime.now() + " Line 24 is running");
+		writer.println(LocalDateTime.now() + " Completed");
 		writer.close();
 	}
 
